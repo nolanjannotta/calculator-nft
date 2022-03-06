@@ -2,10 +2,10 @@ import React, {useState, useEffect} from 'react'
 import { useWeb3React } from '@web3-react/core';
 import useContract from '../hooks/useContract';
 
-import "./Blink.css"
+import "./Supply.css"
 
 
-function Blink() {
+function Supply() {
 
 
     const {active, library} = useWeb3React();
@@ -49,4 +49,4 @@ function Blink() {
   )
 }
 
-export default Blink
+export default Supply

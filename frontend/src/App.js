@@ -4,7 +4,7 @@ import Body from './components/Body';
 import { Web3ReactProvider } from '@web3-react/core';
 import {Web3Provider} from "@ethersproject/providers"
 import NavBar from './components/NavBar';
-import Blink from './components/Blink';
+import Supply from './components/Supply';
 import Calculators from './components/Calculators';
 import Footer from "./components/Footer.js"
 
@@ -18,14 +18,14 @@ function App() {
 
 
   return (
-      <div className="landing-wrapper">
+      <div>
 
         <Web3ReactProvider getLibrary={getLibrary}>
           <NavBar frontPage={frontPage} setFrontPage={setFrontPage}></NavBar>
 
           {frontPage ? 
           <>          
-            <Blink></Blink>
+            <Supply></Supply>
             <Body></Body>
           </>
           : 
@@ -34,9 +34,9 @@ function App() {
           </> 
           }
             
-        <Footer></Footer> 
-        </Web3ReactProvider>
         
+        </Web3ReactProvider>
+        <Footer></Footer> 
         </div>
 
   );

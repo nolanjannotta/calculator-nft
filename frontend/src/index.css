@@ -2,7 +2,7 @@ html {
   min-height: 100%;
   background-image: url("https://arweave.net/4CVkKFTUA4R7NbC6x1Fyr10FZsOArzfD_BhHXShJeJA");
   background-size: cover;
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   /* background-position: center center; */
 }
 

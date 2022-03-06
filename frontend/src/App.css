@@ -1,10 +1,11 @@
 
 .landing-wrapper {
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: relative;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
  
 
-  height: 100%;
+  /* height: 100%; */
   
 }
 
