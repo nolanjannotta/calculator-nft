@@ -1,0 +1,12 @@
+.footer_container {
+    height: 30px;
+    bottom: 0;
+    width:100%;
+    
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: space-around;
+    color: #3d3a3c;
+    background-color: #ffc0bd;
+    position: absolute;
+}
