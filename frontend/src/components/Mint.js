@@ -10,6 +10,13 @@ function Mint(props) {
     const [message, setMessage] = useState("")
     const {calculator} = useContract()
 
+    useEffect(() => {
+      if (props.colorArr.length > 0) {
+        setMessage("")
+      }
+  
+    },[props.colorArr])
+  
 
 
     const mintCalc = async() => {

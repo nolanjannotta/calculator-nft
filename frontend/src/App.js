@@ -18,7 +18,7 @@ function App() {
 
 
   return (
-      <div>
+      <div className="landing-wrapper">
 
         <Web3ReactProvider getLibrary={getLibrary}>
           <NavBar frontPage={frontPage} setFrontPage={setFrontPage}></NavBar>
