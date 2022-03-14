@@ -2,6 +2,8 @@
 .demo_container {
     display: flex;
     justify-content: flex-start;
+    /* background-color: #9d7cbd; */
+    height: 65vh;
     /* position: relative; */
     
     

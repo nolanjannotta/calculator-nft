@@ -34,9 +34,9 @@ function App() {
           </> 
           }
             
-        
-        </Web3ReactProvider>
         <Footer></Footer> 
+        </Web3ReactProvider>
+        
         </div>
 
   );

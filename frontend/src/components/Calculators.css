@@ -35,8 +35,8 @@
     
     margin: auto;
     margin-top: 25px;
-    width: 1300px;
-    height:500px;
+    width: 75%;
+    max-height: 65vh;
     align-self: center;
     display: flex;
     flex-wrap: wrap;
