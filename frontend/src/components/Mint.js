@@ -39,10 +39,13 @@ function Mint(props) {
 
 
   return (
-    <div className='mint'>
-      <div className="message">{message}</div>
+    <div className='mint_container'>
 
-        <img className="mint_image" src={"https://arweave.net/0kUjQkpxX9-7v6CMGCQIgkTZ3ga288Pke3Pl7Nz9Yfc"} alt="mint" onClick={mintCalc} ></img>
+    <div className="message">{message}</div>
+
+    
+    <img className="mint_image" src={"https://arweave.net/0kUjQkpxX9-7v6CMGCQIgkTZ3ga288Pke3Pl7Nz9Yfc"} alt="mint" onClick={mintCalc} ></img>
+
     </div>
   )
 }
