@@ -147,8 +147,8 @@
 }
 .price {
     /* background-color: tomato; */
-    width: fit-content;
-    height:min-content;
+    /* width: fit-content;
+    height:min-content; */
     margin-top: 10%;
     margin-bottom: 10%;
     font-family: "Comic Sans MS";
@@ -159,6 +159,8 @@
 }
 
 .price_container {
+    width: fit-content;
+    height:fit-content;
     text-align: center;
     align-items: center;
     background-color: #a7ece6;
