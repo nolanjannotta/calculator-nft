@@ -127,7 +127,7 @@
     box-shadow: 4px 4px 4px 1px #3e3b3c;
     font-family: "Comic Sans MS";
     width: 50%;
-    height:max-content;
+    height:min-content;
     border-radius: 8px;
     font-size: 14px;
     /* margin-left: 100px; */
@@ -147,10 +147,10 @@
 }
 .price {
     /* background-color: tomato; */
-    width: auto;
-    height:auto;
-    margin-top: 20%;
-    margin-bottom: 20%;
+    width: max-content;
+    height:min-content;
+    margin-top: 10%;
+    margin-bottom: 10%;
     font-family: "Comic Sans MS";
     color: #3e3b3c;
     
