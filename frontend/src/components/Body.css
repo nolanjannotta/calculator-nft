@@ -147,7 +147,7 @@
 }
 .price {
     /* background-color: tomato; */
-    width: max-content;
+    width: fit-content;
     height:min-content;
     margin-top: 10%;
     margin-bottom: 10%;
