@@ -109,12 +109,12 @@
     height: 40%;
     display:flex;
     /* margin-bottom: %; */
-    align-items:flex-end;
+    align-items:center;
     /* margin-top: 3%; */
 
     justify-content: space-between;
     
-    /* background-color: forestgreen; */
+    background-color: forestgreen;
     /* height: 150px; */
     width: 100%;
 
