@@ -159,8 +159,8 @@
 }
 
 .price_container {
-    width: max-content;
-    height:max-content;
+    width: auto;
+    height:auto;
     text-align: center;
     align-items: center;
     background-color: #a7ece6;
