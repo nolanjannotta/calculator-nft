@@ -7,6 +7,7 @@ import NavBar from './components/NavBar';
 import Supply from './components/Supply';
 import Calculators from './components/Calculators';
 import Footer from "./components/Footer.js"
+import MainBody from "./components/MainBody";
 
 const getLibrary = (provider) => {
   return new Web3Provider(provider);
@@ -24,17 +25,16 @@ function App() {
           <NavBar frontPage={frontPage} setFrontPage={setFrontPage}></NavBar>
 
           {frontPage ? 
-          <>          
-            <Supply></Supply>
-            <Body></Body>
+          <>               
+            <MainBody/> 
           </>
           : 
           <>
-            <Calculators></Calculators>
+            <Calculators/>
           </> 
           }
             
-        <Footer></Footer> 
+        <Footer/> 
         </Web3ReactProvider>
         
         </div>

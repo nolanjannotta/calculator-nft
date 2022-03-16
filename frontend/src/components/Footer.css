@@ -1,12 +1,14 @@
 .footer_container {
-    height: 30px;
+
+    height: 4%;
     width:100%;
-    /* position: absolute; */
+    position: absolute;
     bottom: 0;
     
     /* margin-top: 50px; */
     display: flex;
     justify-content: space-around;
+    align-items: center;
     color: #3d3a3c;
     background-color: #ffc0bd;
 }

@@ -51,15 +51,18 @@ function Calculators() {
 
     }
   return (
-      
-    <div className="calc_container">
-        {loading ? <div className="loading"> Loading...</div> : 
+   
+
+        <div className='calc_container'>
+
+          {loading ? <div className="loading"> Loading...</div> : 
         
             calculators.map((uri,index) =>  {return returnImage(uri, index)})
             }
-
+  
+        </div>
         
-    </div>
+        
   )
 }
 

@@ -39,7 +39,7 @@ function Supply() {
 
 
   return (
-      <div>
+      <div className="supply_contianer">
         {active ? 
         <h1 className='blinker'>{amountLeft}</h1> : 
         <h1 className='blinker'>Please connect</h1>}  

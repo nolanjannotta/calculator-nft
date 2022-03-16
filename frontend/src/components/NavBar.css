@@ -1,5 +1,5 @@
 .nav {
-    height: 10em;
+    height: 23vh;
     /* position: relative; */
     /* background-color: turquoise; */
     display: flex;
@@ -11,7 +11,7 @@
 .title {
     /* height: 200px; */
     width: 50%;
-    position:absolute;
+    /* position:absolute; */
     z-index:0;
     
     /* background-color: orange; */

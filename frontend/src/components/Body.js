@@ -3,6 +3,7 @@ import { useWeb3React } from '@web3-react/core';
 import useContract from '../hooks/useContract';
 import Mint from "./Mint"
 import { ethers } from 'ethers';
+import Supply from "./Supply"
 
 // import "./Mint.css"
 import "./Body.css"
@@ -141,20 +142,19 @@ function Body() {
 
   return (
     <div className='demo_container'>
-
-      <div>
-
       
-        <div className="try_me">Try Me!</div>
-        
-          <div className='demo_box'>
+
+
       
         
-      
-          <object id="svg" data={demoUri} type="image/svg+xml" width="300px"></object>
-    
+      <div className='demo_box'>
+        
+      <div className="try_me">Try Me!</div>
+
+          <object className="demo" id="svg" data={demoUri} type="image/svg+xml"></object>
+
           </div>
-      </div>
+      
       
          <div className='color_container'>
 
@@ -184,18 +184,18 @@ function Body() {
           <div className="description">
 
           
-          <p>
-          Finally...<br/>
-          A fully working, fully on chain calculator. <br/>
-          Arguably the first NFT that solves real world problems. <br/>
-          No roadmap, just a calculator. <br/>
-          100% decentralized, zero centralized servers. <br/>
-          Available in 5 color schemes
+              <p>
+              Finally...<br/>
+              A fully working, fully on chain calculator. <br/>
+              Arguably the first NFT that solves real world problems. <br/>
+              No roadmap, just a calculator. <br/>
+              100% decentralized, zero centralized servers. <br/>
+              Available in 5 color schemes
           
 
 
-          </p>
-        </div>
+            </p>
+          </div>
           </div>
 
       </div>

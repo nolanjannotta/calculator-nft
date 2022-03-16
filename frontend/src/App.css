@@ -1,17 +1,17 @@
 
 .landing-wrapper {
-  min-height:100vh;
-  background-image: url("https://arweave.net/4CVkKFTUA4R7NbC6x1Fyr10FZsOArzfD_BhHXShJeJA");
-  background-size: cover;
-  background-repeat: no-repeat;
-  /* position: relative;
-  max-height: 100vh;
-  max-width: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover; */
- 
-
+  width: 100vw;
+  height:100vh;
+  /* position: fixed; */
   /* height: 100%; */
+  /* background-position: center; */
+  /* background-attachment: fixed; */
+  /* background-image: url("https://arweave.net/4CVkKFTUA4R7NbC6x1Fyr10FZsOArzfD_BhHXShJeJA");
+  background-size: cover;
+  background-repeat: no-repeat; */
+
   
 }
+
+
 

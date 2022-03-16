@@ -3,11 +3,17 @@
     /* background-color: tomato; */
     text-shadow: 3px 3px #b999d8;
     margin-top: 0px;
+    width: max-content;
+    
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     font-family: "Comic Sans MS";
 
 
+}
+.supply_contianer {
+    display:flex;
+    justify-content: center;
 }
 
 .please_connect {
