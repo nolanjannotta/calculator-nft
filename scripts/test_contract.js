@@ -2,7 +2,7 @@
 module.exports = async function (callback) {
     const Web3 = require('web3');
     const web3 = new Web3('https://eth-rinkeby.alchemyapi.io/v2/eriQZWQGeXNylGAMxvyOVIBe4JyU0Kxz')
-    const account = web3.eth.accounts.privateKeyToAccount('084a02b79e5d8fb14b086d6764e8cd4078fe3af679cf9a94f284546c608f6e65')
+    const account = web3.eth.accounts.privateKeyToAccount()
     web3.eth.accounts.wallet.add(account);
     // provider = () => new HDWalletProvider('084a02b79e5d8fb14b086d6764e8cd4078fe3af679cf9a94f284546c608f6e65', 'https://eth-rinkeby.alchemyapi.io/v2/eriQZWQGeXNylGAMxvyOVIBe4JyU0Kxz')
     const accounts = await web3.eth.getAccounts()
